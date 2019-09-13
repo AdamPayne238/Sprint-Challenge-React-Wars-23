@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 const App = () => {
-  // Try to think through what state you'll need for this app before starting. Then build out
+  // Tryy to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
   // Fetch characters from the star wars api in an effect hook. Remember, anytime you have a 
