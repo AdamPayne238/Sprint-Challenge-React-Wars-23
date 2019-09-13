@@ -14,14 +14,17 @@ import styled from "styled-components";
 
 const StarCard = styled.div`
 height: 600px;
-width: 600px;
+width: 400px;
 background-image: linear-gradient(red, yellow);
 border-radius: 10%;
 display: flex;
 justify-content: center;
 flex-direction: column;
 justify-content: space-evenly;
+flex-wrap: wrap;
 margin: 3rem auto;
+box-shadow: 5px 5px #888888;
+padding: 20px;
 `;
 
 const StarTitle = styled.h1`
