@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+
 import axios from "axios";
+
 import StartWarsCard from './StarWarsCard.js';
 
 
@@ -15,7 +17,7 @@ function CharacterList() {
       })
       .then(response => {
         const character = response.data.results;
-        console.log("response", response.data.results);
+        console.log("Response", response.data.results);
         setCharacter(character);
       });
   }, []);
